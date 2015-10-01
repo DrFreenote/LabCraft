@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "labcraft",
+  "name": "LabCraft",
+  "description": "This might get messy.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/DrFreenote/LabCraft",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Joshua Davison", "Wes Cook"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
