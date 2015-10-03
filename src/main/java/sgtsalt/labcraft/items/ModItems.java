@@ -5,11 +5,14 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public final class ModItems
 {
+	// Create item instance, can be referred to later (for instance, by renderer)
 	public static Item labTool;
+	public static Item vial;
 
+	// Register items with Forge
 	public static void createItems()
 	{
-		labTool = new BasicItem("labTool"); // Create instance of basicItem for labTool
-		GameRegistry.registerItem(labTool, "labTool"); // Register it as an Item, and a friendly string
+		GameRegistry.registerItem(labTool = new LabTool("labTool"), "labTool");
+		GameRegistry.registerItem(vial = new Vial("vial"), "vial");
 	}
 }

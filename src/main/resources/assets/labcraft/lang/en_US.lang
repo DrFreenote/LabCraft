@@ -1,5 +1,6 @@
 # Item Localization
 item.labTool.name=Lab Tool
+item.vial.name=Vial
 
 # Block Localization
 tile.labMachine.name=Lab Machine

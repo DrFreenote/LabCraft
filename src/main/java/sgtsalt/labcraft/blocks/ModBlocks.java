@@ -5,11 +5,12 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public final class ModBlocks
 {
+	// Create block instance, can be referred to later (for instance, by renderer)
 	public static Block labMachine;
 
+	// Register blocks with Forge
 	public static void createBlocks()
 	{
-		// Register block, set light level
-		GameRegistry.registerBlock(labMachine = new BasicBlock("labMachine"), "labMachine").setLightLevel(1.0f);
+		GameRegistry.registerBlock(labMachine = new LabMachine("labMachine"), "labMachine");
 	}
 }

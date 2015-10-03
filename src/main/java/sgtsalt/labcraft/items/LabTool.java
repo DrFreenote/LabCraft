@@ -3,13 +3,12 @@ package sgtsalt.labcraft.items;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class BasicItem extends Item
+public class LabTool extends Item
 {
-	public BasicItem(String unlocalizedName)
+	public LabTool(String unlocalizedName)
 	{
 		super();
-
 		this.setUnlocalizedName(unlocalizedName);
-		this.setCreativeTab(CreativeTabs.tabMaterials); // Automatically add to creative tab
+		this.setCreativeTab(CreativeTabs.tabMaterials);
 	}
 }
