@@ -4,6 +4,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import sgtsalt.labcraft.blocks.ModBlocks;
+import sgtsalt.labcraft.crafting.ModCrafting;
 import sgtsalt.labcraft.items.ModItems;
 
 public class CommonProxy
@@ -16,6 +17,7 @@ public class CommonProxy
 
 	public void init(FMLInitializationEvent event)
 	{
+		ModCrafting.initCrafting();
 	}
 
 	public void postInit(FMLPostInitializationEvent event)
