@@ -12,6 +12,7 @@ public class ItemRenderRegister
 	public static void registerItemRenderer()
 	{
 		reg(ModItems.labTool);
+		reg(ModItems.vial);
 	}
 
 	// Register renderer for Items with Forge
