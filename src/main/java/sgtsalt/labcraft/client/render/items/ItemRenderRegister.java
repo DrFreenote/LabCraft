@@ -13,6 +13,7 @@ public class ItemRenderRegister
 	{
 		reg(ModItems.labTool);
 		reg(ModItems.vial);
+		reg(ModItems.vialSlime);
 	}
 
 	// Register renderer for Items with Forge
