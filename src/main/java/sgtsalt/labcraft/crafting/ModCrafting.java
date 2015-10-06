@@ -14,7 +14,6 @@ public class ModCrafting
 		// Crafting recipes
 		GameRegistry.addRecipe(new ItemStack(ModItems.vial, 16), " # ", "# #", "###", '#', Blocks.glass); // Vial - Crafting
 		GameRegistry.addSmelting(Items.glass_bottle, new ItemStack(ModItems.vial), 0.35F); // Vial - Smelting
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.vialSlime), ModItems.vial, Items.slime_ball); // Slime Vial
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.labMachine), "###", "#D#", "###", '#', Blocks.glass, 'D', Items.diamond); // Lab Machine
 	}
 }
