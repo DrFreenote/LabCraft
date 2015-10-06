@@ -12,15 +12,15 @@ public final class BlockRenderRegister
 	// List of blocks to register below
 	public static void registerBlockRenderer()
 	{
-		reg(ModBlocks.labMachine);
+		reg(ModBlocks.labMachine,"lab_machine");
 	}
 
 	// Register renderer for Blocks with Forge
 	// Pass in unlocalized block name
-	public static void reg(Block block)
+	public static void reg(Block block, String filename)
 	{
-		String blockName = block.getUnlocalizedName().substring(5); // Get block name from unlocalized name.  substring(5) strips off "tile:"
-		ModelResourceLocation resourceLocation = new ModelResourceLocation(LabCraft.MODID + ":" + blockName, "inventory"); // Get model resource location from block name
+		String blockName = LabCraft.MODID + ":" + filename; // Get block name from unlocalized name.  substring(5) strips off "tile:"
+		ModelResourceLocation resourceLocation = new ModelResourceLocation(blockName, "inventory"); // Get model resource location from block name
 		int meta = 0; // Any meta data
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(block), meta, resourceLocation); // Put it all together and pass to .register()
 	}

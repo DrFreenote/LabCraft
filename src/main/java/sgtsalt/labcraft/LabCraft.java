@@ -5,6 +5,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import sgtsalt.labcraft.blocks.ModBlocks;
 import sgtsalt.labcraft.proxy.CommonProxy;
 
 @Mod(modid = LabCraft.MODID, name = LabCraft.MODNAME, version = LabCraft.VERSION)
@@ -38,7 +39,7 @@ public class LabCraft
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		this.proxy.preInit(event);
+		LabCraft.proxy.preInit(event);
 	}
 
 	// Init
@@ -46,7 +47,7 @@ public class LabCraft
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-		this.proxy.init(event);
+		LabCraft.proxy.init(event);
 	}
 
 	// Post-Init
@@ -54,6 +55,6 @@ public class LabCraft
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
-		this.proxy.postInit(event);
+		LabCraft.proxy.postInit(event);
 	}
 }

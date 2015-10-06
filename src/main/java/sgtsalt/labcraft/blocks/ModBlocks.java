@@ -11,6 +11,6 @@ public final class ModBlocks
 	// Register blocks with Forge
 	public static void createBlocks()
 	{
-		GameRegistry.registerBlock(labMachine = new LabMachine("labMachine"), "labMachine");
+		GameRegistry.registerBlock(labMachine = new LabMachine("labMachine"), "lab_machine");
 	}
 }

@@ -13,8 +13,8 @@ public final class ModItems
 	// Register items with Forge
 	public static void createItems()
 	{
-		GameRegistry.registerItem(labTool = new LabTool("labTool"), "labTool");
+		GameRegistry.registerItem(labTool = new LabTool("labTool"), "lab_tool");
 		GameRegistry.registerItem(vial = new Vial("vial"), "vial");
-		GameRegistry.registerItem(vialSlime = new VialSlime("vialSlime").setAlwaysEdible(), "vialSlime");
+		GameRegistry.registerItem(vialSlime = new VialSlime("vialSlime").setAlwaysEdible(), "vial_slime");
 	}
 }
