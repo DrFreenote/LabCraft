@@ -7,7 +7,7 @@ import sgtsalt.labcraft.LabCraft;
 import sgtsalt.labcraft.blocks.ModBlocks;
 import sgtsalt.labcraft.items.ModItems;
 
-public class ItemRenderRegister
+public final class ItemRenderRegister
 {
 	// List of items to register below
 	public static void registerItemRenderer()
@@ -18,11 +18,10 @@ public class ItemRenderRegister
 	}
 
 	// Register renderer for Items with Forge
-	// Pass in unlocalized item name
+	// Pass in unlocalized item name and file name.  This is also used internally.
 	public static void reg(Item item,String filename)
 	{
 		String itemName = LabCraft.MODID + ":" + filename; // Get item name from unlocalized name.  substring(5) strips off "item:"
-		System.out.println("LABCRAFTDEBUG: "+LabCraft.MODID+":"+filename+" --- "+ ModBlocks.labMachine.getUnlocalizedName().substring(5));
 		ModelResourceLocation resourceLocation = new ModelResourceLocation(itemName, "inventory"); // Get model resource location from item name
 		int meta = 0; // Any meta data
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, meta, resourceLocation); // Put it all together and pass to .register()

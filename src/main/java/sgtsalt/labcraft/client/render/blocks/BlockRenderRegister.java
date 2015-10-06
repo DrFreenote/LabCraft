@@ -16,7 +16,7 @@ public final class BlockRenderRegister
 	}
 
 	// Register renderer for Blocks with Forge
-	// Pass in unlocalized block name
+	// Pass in unlocalized block name and file name.  This is also used internally.
 	public static void reg(Block block, String filename)
 	{
 		String blockName = LabCraft.MODID + ":" + filename; // Get block name from unlocalized name.  substring(5) strips off "tile:"
