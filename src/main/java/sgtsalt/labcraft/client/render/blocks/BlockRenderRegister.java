@@ -12,7 +12,7 @@ public final class BlockRenderRegister
 	// List of blocks to register below
 	public static void registerBlockRenderer()
 	{
-		reg(ModBlocks.labMachine,"lab_machine");
+		reg(ModBlocks.labMachine, "lab_machine");
 	}
 
 	// Register renderer for Blocks with Forge

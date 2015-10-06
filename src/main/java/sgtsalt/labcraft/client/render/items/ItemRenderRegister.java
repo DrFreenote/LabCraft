@@ -12,9 +12,9 @@ public final class ItemRenderRegister
 	// List of items to register below
 	public static void registerItemRenderer()
 	{
-		reg(ModItems.labTool,"lab_tool");
-		reg(ModItems.vial,"vial");
-		reg(ModItems.vialSlime,"vial_slime");
+		reg(ModItems.labTool, "lab_tool");
+		reg(ModItems.vial, "vial");
+		reg(ModItems.vialSlime, "vial_slime");
 	}
 
 	// Register renderer for Items with Forge

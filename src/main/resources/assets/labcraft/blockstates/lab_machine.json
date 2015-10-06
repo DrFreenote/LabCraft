@@ -1,5 +1,5 @@
 	{
 	"variants": {
-		"normal": { "model": "labcraft:block/lab_machine" }
+		"normal": { "model": "labcraft:lab_machine" }
 	}
 }
