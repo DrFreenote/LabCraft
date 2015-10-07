@@ -1,0 +1,53 @@
+LabCraft
+
+These are completely tentative ideas, in no way promised features, and will serve as a rough outline at best.
+
+Early game
+----------
+
+Tools
+	Bunsen Burner - Used for heating fluids/gases - can use (char)coal slowly for heat source
+	Pipette - Pick up very small amount of chemical, used for moving chemicals from bottles (storage) to flasks (crafting/mixing)
+	Mortar and Pestle - Crush materials into powder
+	Tongs - Move dangerous flasks safely
+	Safety Goggles - Needed to avoid negative potion effects when working with some chemicals
+	Lab Counter - I dunno, looks cool?
+
+Glassware (http://www.compoundchem.com/2015/03/17/glassware/)
+	Reagent Bottle - Primary chemical storage, placeable in world.  Colored by chemical inside.  http://www.novatech-usa.com/core/media/media.nl?id=32136&h=cc8d64efc4cee629e8f9
+	Vials - Portable solution, used for potions or in-world interactions (eg. burning through dirt/stone)
+	Flasks - Used for crafting
+		Erlenmeyer Flask - Used for swirling liquids by hand (mixing)
+		Volumetric Flask - Used for precise dilution and preparation - pear shaped, long top
+		Boiling/Round Bottom Flask - Used for boiling liquids - large rounded bottom, short top
+
+The early-game allows the creation of vials (potions).  Primary ingredients are stored in placable reagent bottles
+(akin to Thaumcraft "jars"), and using pipettes allows the mixing of chemicals in different flasks.  The end results
+are stored in vials for use.
+
+Mid game
+--------
+
+Machines
+	Centrifuge - Separate substances.  Primary purpose is content-gating.  Its use opens mod to new chemical types and better vials
+	Fume Hood - Protect against toxic gases
+	Microwave - Heat substances - heats substances, uses low RF power
+
+The centrifuge and fume hood enable the creation of more advanced chemicals, which can create better vials.
+Their primary purpose is to content-gate mid and late game content, and should be considerably more expensive
+to build.  The microwave is a direct upgrade to the bunsen burner, and allows further automation.
+
+Late Game
+---------
+
+Tools
+	Full protective suit - needed to avoid airborne viruses
+	Tweezers - Used to pluck DNA from mobs/plants/players
+
+Machines
+	Sequencer - Used to scan DNA into a usable state
+	Splicer - Used to mix DNA to engineer virus
+	Imbuer - Imbue final DNA onto live virus
+
+Each machine must be built in a special safe room, with various chemicals being needed to construct the virus.
+The end result can have varying effects, from killing players (designated by initial DNA) to protecting them.
