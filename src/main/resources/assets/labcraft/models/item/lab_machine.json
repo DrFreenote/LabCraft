@@ -1,5 +1,5 @@
 {
-    "parent":"labcraft:block/lab_machine",
+    "parent": "labcraft:block/lab_machine",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

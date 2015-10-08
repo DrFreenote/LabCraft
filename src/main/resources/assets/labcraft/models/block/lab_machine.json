@@ -1,6 +1,11 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "labcraft:blocks/lab_machine"
+		"up": "labcraft:blocks/lab_machine/top",
+		"north": "labcraft:blocks/lab_machine/side",
+		"east": "labcraft:blocks/lab_machine/side",
+		"south": "labcraft:blocks/lab_machine/side",
+		"west": "labcraft:blocks/lab_machine/side",
+		"down": "labcraft:blocks/lab_machine/bottom"
 	}
 }
