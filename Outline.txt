@@ -6,20 +6,22 @@ Early game
 ----------
 
 Tools
-	Bunsen Burner - Used for heating fluids/gases - can use (char)coal slowly for heat source
+	Bunsen Burner - Used for heating fluids/gases - can use (char)coal slowly for heat source, or alternatively light with flint and steel.
 	Pipette - Pick up very small amount of chemical, used for moving chemicals from bottles (storage) to flasks (crafting/mixing)
-	Mortar and Pestle - Crush materials into powder
-	Tongs - Move dangerous flasks safely
+	Mortar and Pestle - Crush materials into powder - only necessary if powders are added
 	Safety Goggles - Needed to avoid negative potion effects when working with some chemicals
-	Lab Counter - I dunno, looks cool?
 
 Glassware (http://www.compoundchem.com/2015/03/17/glassware/)
-	Reagent Bottle - Primary chemical storage, placeable in world.  Colored by chemical inside.  http://www.novatech-usa.com/core/media/media.nl?id=32136&h=cc8d64efc4cee629e8f9
-	Vials - Portable solution, used for potions or in-world interactions (eg. burning through dirt/stone)
-	Flasks - Used for crafting
-		Erlenmeyer Flask - Used for swirling liquids by hand (mixing)
-		Volumetric Flask - Used for precise dilution and preparation - pear shaped, long top
-		Boiling/Round Bottom Flask - Used for boiling liquids - large rounded bottom, short top
+	Reagent Bottle - Primary chemical storage, placeable in world.  Colored by chemical inside.  (eg. http://www.novatech-usa.com/core/media/media.nl?id=32136&h=cc8d64efc4cee629e8f9)
+	Vials - Portable solution, consumed for potion effects or thrown for in-world interactions (eg. burning through dirt/stone)
+	Flasks - Placeable in world, used for crafting
+		Volumetric Flask - Used for precise dilution and preparation (mixing chemicals) - pear shaped, long top
+		Round Bottom Flask - Used for boiling and distilling liquids, requires burner - large rounded bottom, short top
+		"Precipitation Flask" - Final result, drop in solid item with chemical to get resulting item
+
+Blocks
+	Lab Counter - Decoration block, clean laboratory aesthetic
+	Lab Cupboard - Extends chest, clean laboratory aesthetic
 
 The early-game allows the creation of vials (potions).  Primary ingredients are stored in placable reagent bottles
 (akin to Thaumcraft "jars"), and using pipettes allows the mixing of chemicals in different flasks.  The end results
@@ -29,25 +31,34 @@ Mid game
 --------
 
 Machines
-	Centrifuge - Separate substances.  Primary purpose is content-gating.  Its use opens mod to new chemical types and better vials
+	Centrifuge - Separate substances, necessary for mid-game chemical creation
 	Fume Hood - Protect against toxic gases
-	Microwave - Heat substances - heats substances, uses low RF power
+	Microwave - Heat substances, uses low RF power
 
-The centrifuge and fume hood enable the creation of more advanced chemicals, which can create better vials.
-Their primary purpose is to content-gate mid and late game content, and should be considerably more expensive
-to build.  The microwave is a direct upgrade to the bunsen burner, and allows further automation.
+The centrifuge and fume hood enable the creation of more advanced chemicals, which can create more advanced
+chemicals and vials.  Their primary purpose is to content-gate mid and late game content, and should be
+considerably more expensive to build.  The microwave is a direct upgrade to the bunsen burner, and allows
+further automation.
 
 Late Game
 ---------
 
 Tools
 	Full protective suit - needed to avoid airborne viruses
-	Tweezers - Used to pluck DNA from mobs/plants/players
+	Tweezers - Used to pluck cells from mobs/plants/players
 
-Machines
-	Sequencer - Used to scan DNA into a usable state
-	Splicer - Used to mix DNA to engineer virus
-	Imbuer - Imbue final DNA onto live virus
+Machines - uses high RF power
+	Extractor - Extract raw DNA from cells - uses Lysis Buffer to separate, Sodium Chloride to cause cells to clump, and Isopropyl Alcohol or Ethanol to clump DNA together
+		Suggest centrifuge as part of extractor recipe, as it's used to both separate DNA from cell clumps, and later DNA from exposed solution
+	Sequencer - Used to read genetic code from DNA (make DNA "usable").  This step could be used to customize the virus via GUI.
+	Splicer - Used to splice DNA onto engineered virus (how to make virus in first place?)
 
-Each machine must be built in a special safe room, with various chemicals being needed to construct the virus.
+Each machine must be placed in a special safe room, with various chemicals being needed to construct the virus.
 The end result can have varying effects, from killing players (designated by initial DNA) to protecting them.
+Protective suit must be born else you'll expose yourself to the virus.
+
+Chemicals/Acquisition
+---------------------
+Ethanol - Generally created from processed corn, other crops might suffice
+Lysis Buffer - Various chemical mixtures
+Sodium Chloride - Melting salt would probably do it
