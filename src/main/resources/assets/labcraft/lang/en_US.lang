@@ -5,3 +5,5 @@ item.vialSlime.name=Slime Vial
 
 # Block Localization
 tile.labMachine.name=Lab Machine
+tile.reagentBottle.name=Reagent Bottle
+tile.labGlass.name=Lab Glass

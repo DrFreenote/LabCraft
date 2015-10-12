@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "labcraft:blocks/lab_glass",
+		"particle": "labcraft:blocks/lab_glass"
+	}
+}

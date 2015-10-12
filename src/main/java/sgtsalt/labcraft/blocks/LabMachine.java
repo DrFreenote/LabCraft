@@ -11,8 +11,7 @@ public class LabMachine extends Block
 		super(Material.rock);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setCreativeTab(CreativeTabs.tabBlock);
-		this.setHardness(0.5f);
+		this.setHardness(0.6f);
 		this.setResistance(0.5f);
-		this.setLightLevel(1.0f);
 	}
 }

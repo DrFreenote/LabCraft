@@ -13,6 +13,8 @@ public final class BlockRenderRegister
 	public static void registerBlockRenderer()
 	{
 		reg(ModBlocks.labMachine, "lab_machine");
+		reg(ModBlocks.reagentBottle, "reagent_bottle");
+		reg(ModBlocks.labGlass, "lab_glass");
 	}
 
 	// Register renderer for Blocks with Forge
